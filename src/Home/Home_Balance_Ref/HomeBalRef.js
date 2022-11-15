@@ -28,11 +28,11 @@ const HomeBalRef = () => {
               <div className={classes.ref_earning}>Wallet Balance </div>
               <div className={classes.ref_earning_amount}>₹ 500</div>
             </div>
-          </div>
-          <div className={classes.button_div}>
-            <button className={classes.withdraw_button}>
-              Withdraw Balance
-            </button>
+            <div className={classes.button_div}>
+              <button className={classes.withdraw_button}>
+                Withdraw Balance
+              </button>
+            </div>
           </div>
         </div>
         <div className={classes.your_ref_container}>

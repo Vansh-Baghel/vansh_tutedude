@@ -3,7 +3,7 @@
   max-width: 80rem;
   font-family: "Poppins";
   position: relative;
-  left: 20%;
+  left: 10%;
 }
 
 .refer_earn {
@@ -31,7 +31,7 @@
   display: flex;
   justify-content: space-between;
   position: relative;
-  width: 68%;
+  width: 90%;
 }
 
 
@@ -68,8 +68,5 @@
 @media (max-width: 520px) {
   .container{
     left: 20px;
-  }
-  .bottom{
-    width: 90%;
   }
 }
