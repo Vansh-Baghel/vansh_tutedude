@@ -1,0 +1,59 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 73px;
+    background: #FFFFFF; 
+    box-sizing: border-box;
+}
+
+.logo {
+  position: absolute;
+  width: 160px;
+  height: 63px;
+  left: 74px;
+  top: 6px;
+}
+
+ul {
+  list-style: none;
+  vertical-align: middle;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  right: 74px;
+  margin: 0;
+}
+
+ul li {
+  height: 1.2rem;
+  padding: 0 1rem 0 1rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 123.5%;
+}
+
+ul li a:hover{
+  color: #800080;
+}
+
+.profileText a{
+    width: 111px;
+    height: 22px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    padding: .3rem;
+    font-size: 18px;
+    line-height: 123.5%;
+    text-align: center;
+    color: #800080;
+}
+
+ul a {
+  color: rgba(128, 0, 128, 0.25);
+  text-decoration: none;
+}

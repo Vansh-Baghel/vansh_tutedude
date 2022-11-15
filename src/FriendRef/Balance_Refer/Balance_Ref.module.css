@@ -1,0 +1,75 @@
+.container {
+  display: grid;
+  max-width: 80rem;
+  font-family: "Poppins";
+  position: relative;
+  left: 20%;
+}
+
+.refer_earn {
+    height: 5rem;
+    max-width: 70rem;
+  }
+
+.earnText {
+  font-size: 14px;
+  position: relative;
+  top: 30px;
+  text-align: start;
+  max-width: fit-content;
+  display: flex;
+  line-height: 21px;
+}
+
+.ref_name {
+  font-size: 16px;
+  line-height: 24px;
+  color: #800080;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: 68%;
+}
+
+
+.wallet_text {
+  font-weight: 400;
+  font-size: 14px;
+  color: #800080;
+}
+
+.refer_Code {
+  display: grid;
+}
+
+.code {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 24px;
+  border-radius: 10px;
+  padding: 0.7rem;
+  margin: 0;
+  text-align: center;
+  letter-spacing: 10px;
+  text-indent: 10px;
+  border: 1.5px solid #dfdfdf;
+}
+
+.wallet_bal {
+  display: grid;
+  box-shadow: 0px 2px 8px rgba(128, 0, 128, 0.15);
+  border-radius: 20px;
+  padding: 1rem;
+}
+
+@media (max-width: 520px) {
+  .container{
+    left: 20px;
+  }
+  .bottom{
+    width: 90%;
+  }
+}
