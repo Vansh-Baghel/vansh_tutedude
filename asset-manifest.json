@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/vansh_tutedude/static/css/main.77684f5b.css",
-    "main.js": "/vansh_tutedude/static/js/main.75a173d0.js",
+    "main.css": "/vansh_tutedude/static/css/main.3f0b3aa4.css",
+    "main.js": "/vansh_tutedude/static/js/main.081cb280.js",
     "index.html": "/vansh_tutedude/index.html",
-    "main.77684f5b.css.map": "/vansh_tutedude/static/css/main.77684f5b.css.map",
-    "main.75a173d0.js.map": "/vansh_tutedude/static/js/main.75a173d0.js.map"
+    "main.3f0b3aa4.css.map": "/vansh_tutedude/static/css/main.3f0b3aa4.css.map",
+    "main.081cb280.js.map": "/vansh_tutedude/static/js/main.081cb280.js.map"
   },
   "entrypoints": [
-    "static/css/main.77684f5b.css",
-    "static/js/main.75a173d0.js"
+    "static/css/main.3f0b3aa4.css",
+    "static/js/main.081cb280.js"
   ]
 }
