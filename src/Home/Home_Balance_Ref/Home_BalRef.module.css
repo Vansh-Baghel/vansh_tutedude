@@ -13,12 +13,12 @@
 .earnText {
   font-size: 14px;
   position: relative;
-  left: 187px;
   top: 30px;
   text-align: start;
-  width: fit-content;
+  max-width: fit-content;
   display: flex;
   line-height: 21px;
+  left: 10%;
 }
 
 .withdrawCode_container {
@@ -34,7 +34,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  width: 486px;
   margin: 1.3rem;
   flex-wrap: wrap;
   position: relative;
@@ -118,6 +117,14 @@
 @media (max-width:480px) {
   .withdraw_details , .button_div{
     padding: 0;
+  }
+
+  .withdraw_bal_container{
+    margin: 0;
+  }
+
+  .withdraw_button{
+    font-size: 12px;
   }
 }
 

@@ -28,7 +28,7 @@ const BalanceRef = () => {
         </span>
       </div>
       {width <= 520 ? (
-        <Link to="/" style={{width: "fit-content" , textDecoration: "none" }}>
+        <Link to="/vansh_tutedude" style={{width: "fit-content" , textDecoration: "none" }}>
           {" "}
           <img src={arrow}></img>{" "}
           <div
@@ -36,7 +36,6 @@ const BalanceRef = () => {
               display: "inline-block",
               color: "#800080",
               fontSize: "1rem",
-
               marginBottom: "2rem",
             }}
           >

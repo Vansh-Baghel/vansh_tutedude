@@ -23,17 +23,24 @@ const Navbar = () => {
         <img src={logo} alt="logo" className={classes.logo}></img>
       </div>
       <ul className="nav_right">
-        {width >= 850 ?  <>       <li>
-          <a href="/#">My Assignment</a>
-        </li>
-        <li>
-          <a href="/#">Chat with Mentor</a>
-        </li></> : <></>}
+        {width >= 850 ? (
+          <>
+            {" "}
+            <li>
+              <a href="/#">My Assignment</a>
+            </li>
+            <li>
+              <a href="/#">Chat with Mentor</a>
+            </li>
+          </>
+        ) : (
+          <></>
+        )}
 
         <li className={classes.profileText}>
-            <img src={Nav_Profile} alt="profile"></img>
-            <a href="/#">ProfileName</a>
-            <img src={Nav_Arrow} alt="arrow"></img>
+          <img src={Nav_Profile} alt="profile"></img>
+          <a href="/#">ProfileName</a>
+          <img src={Nav_Arrow} alt="arrow"></img>
           {/* <ul>
             <li>
               <a href="#"> Demo </a>

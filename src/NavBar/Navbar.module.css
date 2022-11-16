@@ -56,3 +56,20 @@ ul a {
   color: rgba(128, 0, 128, 0.25);
   text-decoration: none;
 }
+
+@media (max-width: 410px) {
+  .logo{
+    left: 0;
+  }
+
+  .profileText{
+    font-size: 15px;
+    right: 0;
+    padding: 0;
+  }
+
+  ul{
+    right: 5px;
+  }
+
+}
