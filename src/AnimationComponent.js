@@ -10,7 +10,7 @@ const AnimationComponent = () => {
     <AnimatePresence>
       <Routes location={location} key={location.pathname}>
         {" "}
-        <Route index path="/" element={<Home />}></Route>
+        <Route index path="/vansh_tutedude" element={<Home />}></Route>
         <Route path="/friendRef" element={<Enrolled />}></Route>
         <Route path="/*" element={<NoPage />}></Route>
       </Routes>
