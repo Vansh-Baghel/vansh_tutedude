@@ -39,7 +39,7 @@ const Navbar = () => {
 
         <li className={classes.profileText}>
           <img src={Nav_Profile} alt="profile"></img>
-          <a href="/#">ProfileName</a>
+          <a href="#">ProfileName</a>
           <img src={Nav_Arrow} alt="arrow"></img>
           {/* <ul>
             <li>

@@ -65,6 +65,20 @@
   padding: 1rem;
 }
 
+@media (max-width: 360px) {
+  .code{
+    padding: 0;
+  }
+
+  .code span {
+    vertical-align: middle;
+    text-align: center;
+  }
+  .wallet_bal{
+    padding: .4rem;
+  }
+}
+
 @media (max-width: 520px) {
   .container{
     left: 20px;

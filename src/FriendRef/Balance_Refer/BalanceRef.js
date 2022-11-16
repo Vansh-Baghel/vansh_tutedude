@@ -48,7 +48,7 @@ const BalanceRef = () => {
       <div className={classes.bottom}>
         <div className={classes.refer_Code}>
           <div className={classes.ref_name}>Your Referral Code </div>
-          <div className={classes.code}>EDCH54</div>
+          <div className={classes.code}><span>EDCH54</span></div>
         </div>
         <div className={classes.wallet_bal}>
           <div className={classes.wallet_text}>Wallet Balance</div>
