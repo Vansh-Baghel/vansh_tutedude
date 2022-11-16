@@ -10,7 +10,6 @@ const HomeBody = () => {
                 <div className={classes.details}>
                 <div className={classes.image_container}>
                     <div>
-
                         <img src={data.image}></img>
                     </div>
                 </div>
