@@ -21,7 +21,7 @@ const BalanceRef = () => {
       <div className={classes.refer_earn}>
         <span className={classes.earnText}>
           {" "}
-          <Link to="/" style={{ textDecoration: "none", color: "black" }}>
+          <Link to="/vansh_tutedude" style={{ textDecoration: "none", color: "black" }}>
             UI/UX {">"} Refer & Earn
           </Link>
           {">"} Friends Referred{" "}
